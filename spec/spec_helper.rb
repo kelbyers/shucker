@@ -1,7 +1,9 @@
 
+ $: << File.join(File.dirname(__FILE__), "/../lib") 
+
 require 'rubygems'
 
-require File.expand_path('../../lib/shucker', __FILE__)
+require 'shucker'
 
 RSpec.configure do |config|
   # == Mock Framework
